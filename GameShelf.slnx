@@ -1,3 +1,8 @@
 <Solution>
+  <Folder Name="/Elementy rozwiązania/">
+    <File Path=".env" />
+    <File Path=".env.example" />
+    <File Path="docker-compose.yml" />
+  </Folder>
   <Project Path="GameShelf/GameShelf.csproj" />
 </Solution>
