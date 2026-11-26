@@ -2,14 +2,14 @@ import { type ReactNode } from "react";
 import Navbar from "./components/Navbar/Navbar";
 
 type AppProps = {
-    Children: ReactNode;
+    children?: ReactNode;
 };
 
-function App({ Children }: AppProps) {
+function App({ children }: AppProps) {
     return (
         <div>
             <Navbar />
-            {Children}
+            {children}
         </div>
     );
 }
