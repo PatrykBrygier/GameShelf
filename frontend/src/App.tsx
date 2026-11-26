@@ -1,7 +1,17 @@
-import "./App.css";
+import { type ReactNode } from "react";
+import Navbar from "./components/Navbar/Navbar";
 
-function App() {
-    return <section>dupa</section>;
+type AppProps = {
+    Children: ReactNode;
+};
+
+function App({ Children }: AppProps) {
+    return (
+        <div>
+            <Navbar />
+            {Children}
+        </div>
+    );
 }
 
 export default App;

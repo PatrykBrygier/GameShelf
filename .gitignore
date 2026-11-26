@@ -361,4 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-frontend/.gitignore
+
+# skip MAC system files
+.DS_Store
